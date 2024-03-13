@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viết Truyện</title>
+</head>
+<body>
+    <h1>Viết Truyện</h1>
+    <form id="storyForm">
+        <label for="title">Tiêu đề:</label><br>
+        <input type="text" id="title" name="title" required><br>
+        <label for="content">Nội dung:</label><br>
+        <textarea id="content" name="content" required></textarea><br>
+        <button type="submit">Đăng Truyện</button>
+    </form>
+    <h2>Các Truyện Đã Đăng</h2>
+    <ul id="storiesList"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
